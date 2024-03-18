@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate Website Prototypes</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/65a3214fe0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <ul id="skipnav">
+          <li>
+            <a href="#main-content" aria-label="Skip to main content">Skip to main content</a>
+          </li>
+        </ul>
+      </div>
+
+  <header>
+    <div class="location">
+        <div class="location-content">
+            <i class="fa-solid fa-location-pin" style="color: #ff0000;"></i>
+            <div class="location-text">
+                <p><span>Location</span></p>
+                <h3 role="heading">Woodbridge ˅</h3>
+            </div>
+        </div>
+        <i class="fa-solid fa-gear"></i>
+    </div>
+    <form action="confirmation.html" method="post" class="search-container">
+        <input class="location-search" type="text" placeholder="Search by Location, Area or Pin Code">
+        <i class="fas fa-search" style="color: #b1adad;"></i>
+      </form>  
+</header>
+
+<main>
+    <div class="card-text">
+        <h2 role="heading">Just In</h2>
+        <p>View All</p>
+    </div>
+    <section class="hero">
+        <div class="cards">
+            <picture class="card-img">
+                <source srcset="images/Group-6_x2.jpg"
+                media="(min-width: 760px)">
+                <img class="card-img" src="images/Group-6.jpg" alt="Image of living area">
+            </picture >
+            <h2 role="heading">$1,291 - 5,299</h2>
+            <p>1-4 Beds, 1-2 Baths</p>
+            <p><span><i class="fa-solid fa-location-pin" style="color: #ff0000;"></i></span> 252 1st Avenue</p>
+        </div>
+        <div class="cards">
+            <a href="/listing.html">
+                <picture class="card-img">
+                    <source srcset="images/Group-1_x2.jpg"
+                    media="(min-width: 760px)">
+                    <img class="card-img" src="images/Group-1.jpg" alt="Image of living area">
+                </picture >
+            </a>
+            <h2 role="heading">$4,999</h2>
+            <p>5 Beds, 2 Baths</p>
+            <p><span><i class="fa-solid fa-location-pin" style="color: #ff0000;"></i></span> 209 & 10th St #8</p>
+        </div>
+
+</section>
+ 
+    <div class="card-text">
+        <h2 role="heading">Designer Homes</h2>
+        <p>View All</p>
+    </div>
+    <section class="hero">
+        <div class="cards">
+            <picture>
+                <source srcset="images/Bitmap_x2.jpg"
+                  media="(min-width: 760px)">
+                  <img src="images/Bitmap.jpg" alt="Image of living area">
+              </picture>
+          <a class="btn" href="#">Starts at <span>$1,999/sq.ft</span></a>
+        </div>
+    <div class="cards">
+        <picture>
+            <source srcset="images/Bitmap-1_x2.jpg"
+              media="(min-width: 760px)">
+              <img src="images/Bitmap-1.jpg" alt="Image of living area">
+          </picture>
+          <a class="btn" href="#">Starts at <span>$1,999/sq.ft</span></a>
+    </div>
+  </div>
+</section>
+        <div class="card-text">
+            <h2 role="heading">Near You</h2>
+            <p>View All</p>
+        </div>
+
+        <footer role="contentinfo">
+            <div class="nav-footer">
+                <div class="footer-content">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ff0000;"></i>
+                        <a href="home.html">Explore</a>
+                    </div>
+                    <div class="footer-content">
+                        <i class="fa-solid fa-heart"></i>
+                        <a href="saved.html">Saved</a>
+                    </div>
+                    <div class="footer-content">
+                        <i class="fa-solid fa-bell"></i>
+                        <a href="#alerts">Alerts</a>
+                    </div>
+                    <div class="footer-content">
+                        <i class="fa-regular fa-user"></i>
+                        <a href="#profile">Profile</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

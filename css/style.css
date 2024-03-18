@@ -1,0 +1,288 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+/* Mobile
+
+Body */
+
+body{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#skipnav{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+#skipnav a{
+    background-color: #F3FF00;
+    color: #000;
+    font-weight: bold;
+    padding: 15px 5px;
+    position: absolute;
+    top: -50px;
+    text-decoration:none;
+}
+  
+#skipnav a:focus{
+    outline: 5px solid #FFF;
+    top:0;
+}
+
+/* Header */
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+/* Location */
+
+/* =========== */
+.location{
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.location-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.location > *,.location-content > *{
+    align-self: center;
+}
+
+.location p{
+    color: grey;
+}
+
+.location h3{
+    font-weight: 500;
+}
+
+/* Form */
+
+header form{
+    display: grid;
+    padding: 15px;
+}
+
+.location-search{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-container {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+/* Search Input */
+
+  .location-search {
+    width: 100%;
+    padding: 10px 30px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+/* Search  Icon */
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #b1adad;
+  }
+
+
+/* Main H2 */
+
+h2{
+    font-weight: 600;
+}
+
+
+/* Card */
+
+.hero {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    overflow:scroll;
+}
+
+.cards {
+  display:flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-text {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-text > *,.h2 > *,.p > *{
+    align-self: center;
+}
+
+.card-text p{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Designer Homes */
+
+.btn{
+    position:absolute;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 1px 2px 2px gray;
+}
+
+.btn span{
+color: red;
+}
+
+/* Footer */
+
+.nav-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-footer > *,.footer-content > *{
+    align-self: center;
+}
+
+/* Listing Page */
+
+.listing{
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.listing-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.listing > *,.listing-content > *{
+    align-self: center;
+}
+
+.listing-text h2{
+    color: red;
+}
+
+.listing-btn{
+    transition: ease-out;
+    position:absolute;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.listing-btn:hover {
+    background-color: red;
+}
+.listing-btn-red{
+    transition: all 0.3s ease-out;
+    position:absolute;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.listing-btn-red:hover{
+    background-color: lightgrey;
+    transform: scale(1.5) rotate(10deg);
+
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Saved */
+
+.saved{
+    display: grid;
+    overflow-y: scroll;
+    gap: 5px;
+}
+
+.saved-text {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.saved p{
+    color: black;
+}
+
+.card{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.card h2{
+    color:#ff0000;
+}
+
+
+  /* Mobile to Desktop */
+
+@media screen and (min-width:760px) {
+
+}
+
+
